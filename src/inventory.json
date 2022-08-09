@@ -5,5 +5,6 @@
   { "id": 4, "name": "Bed, Twin" },
   { "id": 5, "name": "Chair" },
   { "id": 6, "name": "Table" },
-  { "id": 7, "name": "Cat Tree" }
+  { "id": 7, "name": "Cat Tree" },
+  { "id": 8, "name": "Bookcase, Small" }
 ]
