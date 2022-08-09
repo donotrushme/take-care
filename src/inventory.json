@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "Bed, Queen" },
+  { "id": 2, "name": "Bed, King" },
+  { "id": 3, "name": "Bed, Full" },
+  { "id": 4, "name": "Bed, Twin" },
+  { "id": 5, "name": "Chair" },
+  { "id": 6, "name": "Table" },
+  { "id": 7, "name": "Cat Tree" }
+]

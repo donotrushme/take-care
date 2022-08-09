@@ -1,0 +1,4 @@
+[
+  { "id": 1, "segment": "Bed", "searchMethod": "startsWith" },
+  { "id": 2, "segment": "C", "searchMethod": "includes" }
+]

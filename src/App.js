@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ItemQuantity from "./ItemQuantity";
+import Inventory from "./inventory.json";
+import Categories from "./categories.json";
+import CategoryType from "./CategoryType";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <header>Super Hunks! Home of the best estimating software, G</header>
+      <div className="inventory">
+        {Categories.map((category) => {
+          if (category.searchMethod === "startsWith") {
+            return Inventory.filter((item) =>
+              item.name.startsWith(category.segment)
+            ).map((inventory) => {
+              return (
+                <div>
+                  <h3> {inventory.name} </h3>
+                  <ItemQuantity>{inventory.name}</ItemQuantity>
+                </div>
+              );
+            });
+          }
+          return null;
+        })}
+      </div>
+      <div>
+        <h1>B</h1>
+        {Categories.map((category) => {
+          if (category.searchMethod === "includes") {
+            return Inventory.filter((item) =>
+              item.name.includes(category.segment)
+            ).map((inventory) => {
+              return (
+                <div>
+                  <h3>{inventory.name} </h3>
+                  <ItemQuantity>{inventory.name}</ItemQuantity>
+                </div>
+              );
+            });
+          }
+          return null;
+        })}
+      </div>
     </div>
   );
 }
