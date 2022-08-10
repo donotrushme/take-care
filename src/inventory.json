@@ -6,5 +6,9 @@
   { "id": 5, "name": "Chair" },
   { "id": 6, "name": "Table" },
   { "id": 7, "name": "Cat Tree" },
-  { "id": 8, "name": "Bookcase, Smalls" }
+  { "id": 8, "name": "Bookcase, Small" },
+  { "id": 9, "name": "Bookcase, Medium" },
+  { "id": 10, "name": "Bookcase, Folding" },
+  { "id": 11, "name": "Bookcase, Large" },
+  { "id": 12, "name": "Bookcase, Cubed Large" }
 ]
