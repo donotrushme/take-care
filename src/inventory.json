@@ -10,5 +10,6 @@
   { "id": 9, "name": "Bookcase, Medium" },
   { "id": 10, "name": "Bookcase, Folding" },
   { "id": 11, "name": "Bookcase, Large" },
-  { "id": 12, "name": "Bookcase, Cubed Large" }
+  { "id": 12, "name": "Bookcase, Cubed Large" },
+  { "id": 13, "name": "TV Stand" }
 ]
